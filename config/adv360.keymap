@@ -33,8 +33,8 @@
 
     default_layer {
       bindings = <
-        &kp DOLLAR &kp EQUAL   &kp LBKT   &kp LBRC   &kp RBRC  &kp LPAR &tog 1                                                                      &mo 3 &kp RPAR &kp AMPS &kp ASTR    &kp RBKT   &kp HASH   &kp MINUS
-        &kp PIPE   &kp Q     &kp W    &kp F    &kp P      &kp B  &none                                                                       &none &kp J  &kp L  &kp U     &kp Y    &kp SEMI    &none
+        &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &tog 1                                                                      &mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
+        &kp TAB   &kp Q     &kp W    &kp F    &kp P      &kp B  &none                                                                       &none &kp J  &kp L  &kp U     &kp Y    &kp SEMI    &none
         &kp ESC   &mt LGUI A     &mt LALT S   &mt LSHIFT D   &mt LCTRL F &kp G &none    &kp LEFT &kp RIGHT       &kp UP  &kp DOWN          &none &kp H  &mt RCTRL J  &mt RSHFT K     &mt RALT L    &mt RGUI SEMI &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B                                     &kp HOME  &kp PG_UP                      &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
         &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                        &kp BSPC  &kp TAB &kp END    &kp PG_DN &kp SPACE &kp ENTER   &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
@@ -42,10 +42,10 @@
     };
     keypad {
       bindings = <
-        &trans   &trans     &trans    &trans    &trans      &trans  &trans                                                           &mo 3 &kp N6 &kp KP_NUM &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp MINUS
-        &trans   &trans     &trans    &trans    &trans      &trans  &trans                                                               &trans   &trans    &trans    &trans       &trans        &trans          &trans
-        &trans   &trans     &trans    &trans    &trans      &trans  &trans           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL              &trans   &trans    &trans    &trans       &trans        &trans          &trans
-        &trans   &trans     &trans    &trans    &trans      &trans                            &kp HOME &kp PG_UP                         &trans   &trans    &trans    &trans        &trans          &trans
+        &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &trans                                                           &mo 3 &kp N6 &kp KP_NUM &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp MINUS
+        &trans   &trans     &trans    &trans    &trans      &trans  &trans                                                               &trans &trans   &trans    &trans       &trans        &trans          &trans
+        &trans   &trans     &trans    &trans    &trans      &trans  &trans           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL              &trans &trans   &trans    &trans       &trans        &trans          &trans
+        &trans   &trans     &trans    &trans    &trans      &trans                            &kp HOME &kp PG_UP                        &trans   &trans    &trans       &trans        &trans          &trans
         &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp KP_N0              &kp UP     &kp DOWN     &kp KP_DOT    &kp RBKT        &mo 2
       >;
     };
